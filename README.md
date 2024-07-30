@@ -13,7 +13,7 @@
 
 ## How to install
 
--   install laravel version -9
+-   install laravel version 9 / 10
 
 ```bash
 composer create-project laravel/laravel:^9.0 example-app
@@ -64,7 +64,7 @@ npm install pusher-js
 -   next install composer
 
 ```bash
-require pusher/pusher-php-server
+composer require pusher/pusher-php-server
 ```
 
 ## Run project
@@ -82,6 +82,8 @@ php artisan websockets:serve
 ```
 
 ## NOTE
+
+= fornt end sample ui live chat : https://github.com/nurmaarizd04/front-end-sample-live-chat-laravel-websocket?tab=readme-ov-file
 
 -   https://github.com/guzzle/guzzle/issues/1935
 -   https://stackoverflow.com/questions/42094842/curl-error-60-ssl-certificate-in-laravel-5-4
